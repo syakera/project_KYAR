@@ -1,0 +1,70 @@
+main {
+  margin: 0;
+  font-family: "Trebuchet MS", sans-serif;
+  background-color: #393939;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main .form-container {
+  border: 2px solid #fff;
+  padding: 60px 100px 60px 30px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+main .form-container .contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+}
+main .form-container .contact-form .form-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+main .form-container .contact-form .form-row label {
+  width: 130px;
+  text-align: right;
+  font-size: 14px;
+}
+main .form-container .contact-form .form-row input,
+main .form-container .contact-form .form-row textarea {
+  background-color: #e7eae1;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 300px;
+}
+main .form-container .contact-form .form-row textarea {
+  resize: none;
+  height: 100px;
+}
+main .form-container .contact-form .button-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  width: 100%;
+  margin-left: 100px;
+}
+main .form-container .contact-form .button-row button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  box-shadow: 3px 3px 10px #000;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  letter-spacing: 2px;
+  width: 160px;
+}
+main .form-container .contact-form .button-row button:hover {
+  transform: scale(1.05);
+}/*# sourceMappingURL=styleForBookPage.css.map */
