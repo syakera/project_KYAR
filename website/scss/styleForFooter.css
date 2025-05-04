@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #2b2b2b;
+  padding: 30px 20px;
+  position: relative;
+  margin-top: auto;
+  min-height: 100px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+footer .footer-content {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+footer .contact-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: calc(50% - 20px);
+  padding-right: 20px;
+  justify-content: center;
+}
+footer .contact-block .phone,
+footer .contact-block .email {
+  font-size: 16px;
+  color: black;
+  font-weight: normal;
+  line-height: 1.4;
+  margin: 0;
+}
+footer .separator {
+  height: 70px;
+  width: 2px;
+  border-radius: 1px;
+  background-color: #e0e0e0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 600px) {
+  footer {
+    padding: 20px 15px;
+  }
+  footer .separator {
+    display: none;
+  }
+  footer .contact-block {
+    max-width: 100%;
+  }
+}
+footer .social-media {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto;
+}
+footer .social-media svg {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+footer .social-media svg:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+footer .tg-icon {
+  width: 40px;
+  height: 40px;
+}
+@media (max-width: 768px) {
+  footer {
+    gap: 8px;
+  }
+  footer svg {
+    width: 32px;
+    height: 32px;
+  }
+  footer svg:last-child {
+    width: 32px !important;
+    height: 32px !important;
+  }
+}/*# sourceMappingURL=styleForFooter.css.map */
